@@ -50,4 +50,4 @@ npm run preview
 
 ## Repository Topics
 
-`lawyer-portfolio` `legal-services` `egypt` `arabic` `react` `typescript` `vite`
+`law-firm-website` `legal-services` `attorney-profile` `legal-consultation` `egypt` `arabic-website` `react` `typescript` `vite`
