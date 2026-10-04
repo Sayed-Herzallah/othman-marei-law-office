@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://othman-marei-law-office.vercel.app/sitemap.xml
