@@ -1,39 +1,53 @@
-# الموقع الرسمي للمستشار عثمان مرعي
+# Othman Marei Law Office
 
-موقع عربي تعريفي لمكتب المستشار عثمان مرعي للمحاماة والاستشارات القانونية. يعرض نبذة المكتب، ومجالات الممارسة، والخبرات المهنية، ومقالات قانونية، ووسائل التواصل.
+Official website for Othman Marei Law Office, presenting the attorney profile, legal practice areas, professional articles, and consultation contact options in a clear, responsive Arabic experience.
 
-## نطاق الخدمة
+## Overview
 
-يقع مقر المكتب في مدينة ههيا بمحافظة الشرقية، وتُستقبل الاستفسارات لمتابعة القضايا في جميع محافظات مصر. تخضع إمكانية مباشرة كل قضية لتفاصيلها وإجراءاتها.
+The site introduces the law office based in Hehia, Sharqia, Egypt, and provides information about legal services and inquiries from across Egypt. Case acceptance and representation depend on the details and applicable procedures of each matter.
 
-## مجالات الممارسة المعروضة
+## Practice Areas
 
-- الأحوال الشخصية وقضايا الأسرة
-- الميراث والتركات
-- الشركات والقانون التجاري والاستثمار
-- صياغة العقود ومراجعتها
-- القضايا الجنائية
-- القضايا المدنية والعقارية
-- المنازعات الإدارية ومجلس الدولة
-- قضايا العمل والعمال
-- التحكيم وتسوية المنازعات
-- الاستشارات القانونية
+- Family and personal status law
+- Inheritance and estate disputes
+- Civil and real estate matters
+- Criminal defense
+- Commercial law and company matters
+- Contract drafting and review
+- Administrative law and State Council matters
+- Labor and employment matters
+- Arbitration and dispute resolution
+- Legal consultations
 
-## التشغيل محليًا
+## Tech Stack
 
-يتطلب المشروع Node.js وnpm.
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Lucide React
+
+## Getting Started
+
+Requirements: Node.js and npm.
 
 ```bash
 npm install
 npm run dev
 ```
 
-لإنشاء نسخة الإنتاج:
+Create a production build with:
 
 ```bash
 npm run build
 ```
 
-## كلمات مفتاحية
+Preview the production build locally with:
 
-المستشار عثمان مرعي، محامي ههيا، محامي الشرقية، محامي في مصر، محامي جميع محافظات مصر، قضايا الأسرة، الأحوال الشخصية، الميراث والتركات، محامي جنائي، قضايا مدنية، قانون تجاري، تأسيس الشركات، محامي عقارات، صياغة العقود، استشارات قانونية.
+```bash
+npm run preview
+```
+
+## Repository Topics
+
+`lawyer-portfolio` `legal-services` `egypt` `arabic` `react` `typescript` `vite`
