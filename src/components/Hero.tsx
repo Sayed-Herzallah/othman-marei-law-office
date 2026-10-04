@@ -46,7 +46,7 @@ export const Hero: React.FC<HeroProps> = ({ onContactClick, onAboutClick }) => {
 
             {/* Authoritative Main Headline */}
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[3.25rem] font-serif-legal font-bold text-[#0f172a] leading-[1.3] tracking-tight mb-6 max-w-2xl">
-              محاماة ومتابعة قضايا في جميع محافظات مصر
+              المستشار عثمان مرعي — محامٍ في ههيا والشرقية
             </h1>
 
             {/* Editorial Supporting Paragraph */}

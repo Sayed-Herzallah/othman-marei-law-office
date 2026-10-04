@@ -1,6 +1,5 @@
 import React from 'react';
 import { Award, GraduationCap, Scale, MapPin } from 'lucide-react';
-import othmanOfficeImg from '../assets/images/othman_office_daylight_1790274937168.jpg';
 import { aboutData, lawyerProfile } from '../data/portfolioData';
 import { JusticeScalesLogo } from './JusticeScalesLogo';
 import portfolioOfficeImg from '../assets/images/othman-marei-portfolio-office.jpeg';
@@ -39,19 +38,7 @@ export const About: React.FC = () => {
           {/* Editorial Visual & Philosophy Card (5 cols) */}
           <div className="lg:col-span-5 order-2 lg:order-1">
             <div className="relative">
-              <div className="aspect-[4/3] rounded-2xl overflow-hidden border border-slate-200 bg-white shadow-xl relative">
-                <img
-                  src={othmanOfficeImg}
-                  alt="مقر مكتب المستشار عثمان مرعي"
-                  className="w-full h-full object-cover filter contrast-[1.02]"
-                  referrerPolicy="no-referrer"
-                  loading="lazy"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-transparent to-transparent pointer-events-none" />
-              </div>
-
-              {/* Quote Block below image */}
-              <div className="mt-6 p-6 sm:p-7 rounded-2xl bg-white border border-slate-200 shadow-md relative">
+              <div className="p-6 sm:p-7 rounded-2xl bg-white border border-slate-200 shadow-md relative">
             <div className="flex items-center gap-2 mb-3 text-blue-600">
                   <div className="w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center">
                     <JusticeScalesLogo className="w-3.5 h-3.5 text-blue-600" />

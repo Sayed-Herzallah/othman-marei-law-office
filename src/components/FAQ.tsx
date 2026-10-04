@@ -48,6 +48,7 @@ export const FAQ: React.FC = () => {
                   onClick={() => toggleFAQ(item.id)}
                   className="w-full p-5 sm:p-6 text-right flex items-center justify-between gap-4 transition-colors cursor-pointer"
                   aria-expanded={isOpen}
+                  aria-controls={`answer-${item.id}`}
                 >
                   <span className={`text-base sm:text-lg font-serif-legal font-bold transition-colors ${
                     isOpen ? 'text-blue-700' : 'text-[#0f172a]'
@@ -64,11 +65,13 @@ export const FAQ: React.FC = () => {
                   </div>
                 </button>
 
-                {isOpen && (
-                  <div className="px-5 pb-6 sm:px-6 sm:pb-6 text-xs sm:text-sm text-[#334155] leading-relaxed border-t border-slate-100 font-sans-arabic pt-4 font-normal">
-                    {item.answer}
-                  </div>
-                )}
+                <div
+                  id={`answer-${item.id}`}
+                  hidden={!isOpen}
+                  className="px-5 pb-6 sm:px-6 sm:pb-6 text-xs sm:text-sm text-[#334155] leading-relaxed border-t border-slate-100 font-sans-arabic pt-4 font-normal"
+                >
+                  {item.answer}
+                </div>
               </div>
             );
           })}
