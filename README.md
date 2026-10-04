@@ -48,6 +48,10 @@ Preview the production build locally with:
 npm run preview
 ```
 
+## Deployment
+
+The project is configured for Vercel. Import this GitHub repository and use the detected Vite settings, or use the included `vercel.json` configuration. The production output is generated in `dist`.
+
 ## Repository Topics
 
 `law-firm-website` `legal-services` `attorney-profile` `legal-consultation` `egypt` `arabic-website` `react` `typescript` `vite`
