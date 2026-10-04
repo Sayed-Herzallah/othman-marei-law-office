@@ -1,6 +1,6 @@
 import React from 'react';
-import { Award, GraduationCap, Scale, MapPin } from 'lucide-react';
-import { aboutData, lawyerProfile } from '../data/portfolioData';
+import { MapPin } from 'lucide-react';
+import { aboutData } from '../data/portfolioData';
 import { JusticeScalesLogo } from './JusticeScalesLogo';
 import portfolioOfficeImg from '../assets/images/othman-marei-portfolio-office.jpeg';
 
@@ -22,24 +22,24 @@ export const About: React.FC = () => {
           </h2>
         </div>
 
-        <div className="mb-14 text-right">
-          <div className="mb-6 max-w-3xl">
-            <h3 className="text-xl sm:text-2xl font-serif-legal font-bold text-[#0f172a]">من مكتب المستشار عثمان مرعي</h3>
-            <p className="mt-2 text-sm text-[#475569]">لقطات من المكتب والمسيرة المهنية.</p>
-          </div>
-          <figure className="max-w-3xl overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-lg">
-            <img src={portfolioOfficeImg} alt="المستشار عثمان مرعي في مكتبه" className="aspect-[4/3] w-full object-cover" loading="lazy" />
-            <figcaption className="px-5 py-3 text-xs font-medium text-slate-600">المستشار عثمان مرعي في مكتبه</figcaption>
-          </figure>
-        </div>
-
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
           
           {/* Editorial Visual & Philosophy Card (5 cols) */}
           <div className="lg:col-span-5 order-2 lg:order-1">
-            <div className="relative">
-              <div className="p-6 sm:p-7 rounded-2xl bg-white border border-slate-200 shadow-md relative">
-            <div className="flex items-center gap-2 mb-3 text-blue-600">
+            <figure className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-xl">
+              <img
+                src={portfolioOfficeImg}
+                alt="المستشار عثمان مرعي في مكتبه"
+                className="aspect-[4/3] w-full object-cover"
+                loading="lazy"
+              />
+              <figcaption className="px-5 py-3 text-xs font-medium text-slate-600 text-right">
+                المستشار عثمان مرعي في مكتبه
+              </figcaption>
+            </figure>
+
+            <div className="mt-6 p-6 sm:p-7 rounded-2xl bg-white border border-slate-200 shadow-md">
+              <div className="flex items-center gap-2 mb-3 text-blue-600">
                   <div className="w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center">
                     <JusticeScalesLogo className="w-3.5 h-3.5 text-blue-600" />
                   </div>
@@ -52,7 +52,6 @@ export const About: React.FC = () => {
                   <span className="text-[#0f172a] font-bold">المستشار عثمان مرعي</span>
                   <span className="text-blue-700 font-bold font-sans-arabic">محامٍ ومستشار قانوني</span>
                 </div>
-              </div>
             </div>
           </div>
 
