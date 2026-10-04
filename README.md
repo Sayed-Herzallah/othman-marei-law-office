@@ -54,7 +54,7 @@ The project is configured for Vercel. Import this GitHub repository and use the 
 
 ## Search Engine Setup
 
-The site includes a Google Search Console HTML verification file, a `robots.txt` file, a sitemap, canonical metadata, and LegalService structured data. After deployment, verify the site in Google Search Console and submit `/sitemap.xml`. The canonical URL and sitemap use `https://othmanmarei.vercel.app/`.
+The site includes a custom SVG favicon, a Google Search Console HTML verification file, a `robots.txt` file, a sitemap, canonical metadata, and LegalService structured data. After deployment, verify the site in Google Search Console and submit `/sitemap.xml`. The canonical URL and sitemap use `https://othmanmarei.vercel.app/`.
 
 ## Repository Topics
 
