@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: 'IBM Plex Sans Arabic', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    scroll-behavior: smooth;
+    color-scheme: light;
+  }
+
+  body {
+    background-color: #f8fafc;
+    color: #0f172a;
+    overflow-x: hidden;
+  }
+
+  /* Vibrant Royal Blue Selection for all text */
+  ::selection {
+    background-color: #2563eb !important;
+    color: #ffffff !important;
+  }
+}
+
+/* Consistent, clear scrollbars for the page and card details. */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #e2e8f0;
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb {
+  background: #64748b;
+  border: 2px solid #e2e8f0;
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2563eb;
+}
+
+.modal-scrollbar {
+  direction: ltr;
+  scrollbar-width: thin;
+  scrollbar-color: #94a3b8 transparent;
+  overscroll-behavior: contain;
+}
+
+.modal-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.modal-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.modal-scrollbar::-webkit-scrollbar-thumb {
+  background: #94a3b8;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  background-clip: padding-box;
+}
+
+.modal-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #2563eb;
+}
+
+.modal-scrollbar > * {
+  direction: rtl;
+}
+
+.font-serif-legal {
+  font-family: 'Amiri', serif;
+}
+
+.font-sans-arabic {
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+
+.font-latin {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}

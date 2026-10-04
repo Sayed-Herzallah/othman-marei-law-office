@@ -1,0 +1,10 @@
+node_modules/
+dist/
+coverage/
+.kilo/
+.codex/
+.agents/
+.env
+.env.*
+!.env.example
+*.log
